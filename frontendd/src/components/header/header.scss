@@ -1,0 +1,50 @@
+
+section#header{
+    padding: 20px 0;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Poppins';
+        .left{
+            display: flex;
+            gap: 3px;
+            button{
+                padding: 10px 20px;
+                color: black;
+                background-color: transparent;
+                border: none;
+                font-weight: bold;
+                transition: 0.3s;
+            }
+            button:hover{
+                padding: 10px 20px;
+                color: white;
+                background-color: #F534A7;
+                border: none;
+                font-weight: bold
+            }
+        }
+        .right{
+            button{
+                padding: 10px 20px;
+                color: black;
+                background-color: transparent;
+                border: none;
+                font-weight: bold;
+                transition: 0.3s;
+
+
+            }
+            button:hover{
+                padding: 10px 20px;
+                color: white;
+                background-color: #F534A7;
+                border: none;
+                font-weight: bold
+            }
+        }
+
+    }
+
+
+}

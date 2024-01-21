@@ -1,0 +1,39 @@
+section#searched{
+    padding: 100px 0;
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        .head-text{
+            text-align: center;
+            .head{
+                font-weight: bold;
+                font-size: 36px;
+            }
+            .desc{
+                color: gray;
+            }
+        }.cards{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            .cardd{
+                width: 250px;
+                display: flex;
+                gap: 20px;
+                align-items: center;
+                .card-left{
+border-radius: 10px;
+                }
+                .card-right{
+                    .price{
+                        font-weight: bold;
+                    }
+
+                }
+
+            }
+        }
+    }
+}

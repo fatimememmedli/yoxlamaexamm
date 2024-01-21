@@ -1,0 +1,42 @@
+section#hero{
+    display: flex;
+    background-color: rgb(246,51,179);
+    padding-top: 50px;
+    .right{
+        font-family: "Poppins";
+        display: flex;
+        color: white;
+        flex-direction: column;
+        gap: 24px;
+        justify-content: center;
+        .sale1{
+
+            font-size: 48px;
+            span{
+                font-size: 18px;
+
+            }
+        }
+        .sale{
+            font-size: 72px;
+        }
+        button{
+            padding: 10px 20px;
+            width: max-content;
+            border: none;
+            font-weight: bold;
+            border-radius: 20px;
+            transition: 0.3s;
+        }
+        button:hover{
+            padding: 10px 20px;
+            width: max-content;
+            border: none;
+            font-weight: bold;
+            border-radius: 20px;
+            color: white;
+            background-color: rgb(246,61,119);
+        }
+    }
+    
+}
